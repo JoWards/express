@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # OS X
 .DS_Store*
 Icon?
@@ -25,3 +26,20 @@ coverage
 
 # Benchmarking
 benchmarks/graphs
+=======
+# npm
+node_modules
+package-lock.json
+*.log
+*.gz
+
+# Coveralls
+.nyc_output
+coverage
+
+# Benchmarking
+benchmarks/graphs
+
+# ignore additional files using core.excludesFile
+# https://git-scm.com/docs/gitignore
+>>>>>>> 947b6b7d57939d1a3b33ce008765f9aba3eb6f70
